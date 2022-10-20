@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* ------------------------- */
+
+.newsbox {
+  /* background-color: black;
+  color: white; */
+  padding-top: 100px;
+}
+
+/* .postimg {
+  display: inline;
+  width: 350px;
+  height: 200px;
+  border-radius: 20px;
+} */
+
+.box1 {
+  margin: 0 auto;
+  width: 900px;
+  background-color: pink;
+  color:black;
+  height: auto;
+  padding: 50px;
+  border-radius: 70px;
+  
+}
+
+.img1 {
+  display: flex;
+  /* margin-bottom: 20px; */
+  justify-content: space-between;
+}
+
+img{
+  width: 500px;
+  height: 300px;
+}
+
+.title {
+  padding: 25px;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+
+.url {
+  padding: 5px 10px;
+  background-color: rgb(61, 0, 227);
+  border: none;
+  border-radius: 20px;
+  margin: 10px 0px;
+}
+
+.url a {
+  text-decoration: none;
+  color: white;
+}
+
+/* .des {
+  margin: 8px 0px;
+} */
+
+.dark-mode {
+  background-color: purple;
+  color: black;
+  height: 100%;
+  /* transition: background-color 025s ease-in-out; */
+}
+
+.light-mode {
+  background-color: white;
+  color: black;
+  height: 100%;
+  /* transition: background-color 025s ease-in-out; */
+}

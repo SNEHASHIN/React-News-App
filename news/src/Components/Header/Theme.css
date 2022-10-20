@@ -1,0 +1,14 @@
+button{
+    /* padding: 30px; */
+    margin-top: 50px;
+}
+
+.dark {
+    background-color: #333;
+    color: #fff;
+}
+
+/* .light {
+    background-color: #fff;
+    color: #333;
+} */
