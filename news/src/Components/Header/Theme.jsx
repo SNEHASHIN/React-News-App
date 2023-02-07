@@ -15,7 +15,7 @@ function App() {
   }, [theme]);
   return (
     <div className={`App ${theme}`}>
-      <button onClick={toggleTheme}>Theme</button>
+      <button className="btn1" onClick={toggleTheme}>Theme</button>
     </div>
   );
 }

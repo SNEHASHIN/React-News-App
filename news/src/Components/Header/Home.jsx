@@ -15,7 +15,8 @@ function Home(props) {
   
   const getapi = async () => {
     const apiData = await axios.get(
-      "https://newsapi.org/v2/everything?q=india&apiKey=a8b7244c76de44a48674b035cb6cad1c"
+      // "https://newsapi.org/v2/everything?q=india&apiKey=a8b7244c76de44a48674b035cb6cad1c"
+      "https://newsapi.org/v2/top-headlines?country=in&apiKey=a8b7244c76de44a48674b035cb6cad1c"
     );
     setData(apiData.data.articles);
     console.log(apiData.data.articles);
